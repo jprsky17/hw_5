@@ -1,0 +1,16 @@
+# hw_5
+
+# Question 3
+muscle -in infile.fasta -seqtype protein -maxiters 16 -maxmb 30000000 -hydro 5 -hydrofactor 1.2 -log logfile.txt -weight1 clustalw -distance1 kmer6_6 -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -distance2 pctidkimura -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta 
+
+raxmlHPC-HYBRID-AVX -T 4 -s infile -N autoMRE -n result -f a -p 12345 -x 12345 -m PROTCATJTT
+
+# Question 4
+# Pteropus Lylei (the flying fox) is most closely related to dobsonia viridis (the Greenish naked-backed fruit bat), cynopterus sphinx, epomophorus wahlbergi, rousettus leschenaultii, and syconycteris australis (the Common blossom bat)
+
+#Question 5
+#Because SARS-CoV-2 has a spike sequence that determines the binding affinity and accessibility its receptor binding domain to the cellular angiotensin-converting enzyme 2 (ACE2) receptor and is responsible for host range. SARS-CoV-2 progenitor bat viruses are genetically similar and are able to enter human cells through the human ACE2 pathway through cave bats living in the limestone karstic terrain in northern Laos in the Indochinese peninsula. However these viruses likely circulate in the Rhinolophus primarily. Also the flying fox is cute. Additionally the ACE2 receptor is involved in blood pressure regulation so is an important receptor in regards to human health in general. It is important to know the similarity between bat ace2 receptors are to human ace2 receptors as this is one of the ways in which covid19 has been hypothesized to spread across species resulting in the covid-19 pandemic.
+
+#References:
+#Temmam, S., Vongphayloth, K., Baquero, E. et al. Bat coronaviruses related to SARS-CoV-2 and infectious for human cells. Nature 604, 330–336 (2022). https://doi.org/10.1038/s41586-022-04532-4
+#Latinne, A., Hu, B., Olival, K.J. et al. Origin and cross-species transmission of bat coronaviruses in China. Nat Commun 11, 4235 (2020). https://doi.org/10.1038/s41467-020-17687-3
